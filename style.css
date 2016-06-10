@@ -1,0 +1,83 @@
+body{
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Anton', sans-serif;
+  background-color: #333333;
+  color: #ebebeb;
+}
+h1{
+  font-size: 6em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.city{
+ font-size: 4rem; 
+ border-bottom: 1px solid #ff5a5f;
+ letter-spacing: 4px;
+}
+#temp{
+  color: #ff5a5f;
+  font-size: 4rem;
+  letter-spacing: 4px;
+}
+
+img{
+  width:9rem;
+}
+
+button{
+  color: #333333;
+  background-color: #fff;
+  border: 2px solid #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+button:hover{
+  color: #333333;
+  font-weight: 400;
+  background-color: #33aaff;
+  border: 2px solid #33aaff;
+  transition: 500ms ease;
+}
+
+h4{
+  font-weight: 700;
+    letter-spacing: 4px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 3rem;
+}
+
+input[type=text],input[type=submit]{
+  color: #33aaff;
+    font-family: 'Roboto', sans-serif;
+      font-size: 2rem;
+}  
+input[type=submit]{
+  color: #333333;
+  background-color: #fff;
+  border: 2px solid #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 2rem;
+      margin-top: 5px;
+      margin-bottom: 5px;
+}
+input[type=submit]:hover{
+  color: #333333;
+  font-weight: 400;
+  background-color: #33aaff;
+  border: 2px solid #33aaff;
+  transition: 500ms ease;
+  margin-top: 5px;
+}
+
+.slogan{
+      font-family: 'Roboto', sans-serif;
+      font-size: 2rem;
+      margin-top: 20px;
+}
+
+
+
+
+
