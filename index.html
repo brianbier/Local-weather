@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Today</title>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300,900italic|Anton' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container" ng-controller="MainCtrl">
+    <div class="row">
+      <header class="col-xs-12 text-center">
+        <h1>Your Local Weather</h1>
+      </header>
+
+      <div class="col-xs-8 col-xs-offset-2">
+        <div class="text-center status">
+          <p class="city" rel="js-data-city"></p>
+          <p id="temp" rel="js-data-temp"></p>
+          <p rel="js-data-icon"></p>
+          <p id="temp" rel="js-data-description"></p>
+          <button rel="js-scale-convert">Celsius</button>
+          <h4>Find your local weather.</h4>
+        <form>
+          <input type="text" name="zipcode" placeholder="Enter Zipcode..."><br/>
+          <input type="submit" value="Submit" />
+        </form>
+        <p class="slogan">Inspired By <a href="https://www.linkedin.com/in/brianbier" target="_blank">Brian Bier</a></p>
+        </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/weather.js"></script>
+</body>
+</html>
